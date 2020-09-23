@@ -34,9 +34,15 @@ class InsertionSort {
     } 
 }
 class Main {
+<<<<<<< HEAD:InsertionSort/Main.Java
     //Branch: Experimento
     public static void main(String[] args) {
         int arr[] = { 12, 11, 13, 5, 6, 1, 15 }; 
+=======
+  //Branch : Experimento
+  public static void main(String[] args) {
+      int arr[] = { 12, 11, 13, 5, 6, 1, 15 }; 
+>>>>>>> adf08a62569950e7812b705eb05a830041473b28:InsertionSort/Main.java
   
         InsertionSort ob = new InsertionSort(); 
         ob.sort(arr); 
